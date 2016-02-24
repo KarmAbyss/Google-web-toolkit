@@ -1,2 +1,16 @@
-# Google-web-toolkit
-For learning GWT
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui">
+	<ui:style>
+
+	</ui:style>
+	<g:HTMLPanel>
+		<g:Label>Google website toolkit</g:Label>
+		<form
+			style="padding:10px; background:#eee;border:3px solid #aaa;margin:50px">
+			<input type="text" value="text here...!" />
+			<input type="password" value="someinvisibletext" />
+			<input type="submit" value="send now" />
+			</form>
+	</g:HTMLPanel>
+</ui:UiBinder> 
